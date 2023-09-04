@@ -1,0 +1,12 @@
+﻿  Reading Qt configuration (C:\Qt\5.15.2\msvc2019_64\bin\qmake.exe)
+  rcc ChessGui.qrc
+   RCC: Warning: No resources in 'C:\Users\USER\source\repos\Chess\ChessGui.qrc'.
+  ChessGui.cpp
+  ChessSystem.cpp
+  main.cpp
+  Piece.cpp
+  PieceLabel.cpp
+  Player.cpp
+C:\Users\USER\source\repos\Chess\ChessSystem.cpp(174): warning C4715: 'ChessSystem::findPieceByPos': not all control paths return a value
+  qrc_ChessGui.cpp
+  Chess.vcxproj -> C:\Users\USER\source\repos\Chess\x64\Release\Chess.exe

@@ -1,0 +1,23 @@
+﻿  ChessGui.cpp
+  ChessSystem.cpp
+  Piece.cpp
+  PieceLabel.cpp
+  Player.cpp
+  main.cpp
+C:\Users\USER\source\repos\Chess\ChessSystem.cpp(174): warning C4715: 'ChessSystem::findPieceByPos': not all control paths return a value
+ChessGui.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl QMediaContent::QMediaContent(class QUrl const &)" (__imp_??0QMediaContent@@QEAA@AEBVQUrl@@@Z) referenced in function "public: void __cdecl ChessGui::setMenu(void)" (?setMenu@ChessGui@@QEAAXXZ)
+ChessGui.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl QMediaContent::~QMediaContent(void)" (__imp_??1QMediaContent@@QEAA@XZ) referenced in function "public: void __cdecl ChessGui::setMenu(void)" (?setMenu@ChessGui@@QEAAXXZ)
+ChessGui.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl QMediaPlayer::QMediaPlayer(class QObject *,class QFlags<enum QMediaPlayer::Flag>)" (__imp_??0QMediaPlayer@@QEAA@PEAVQObject@@V?$QFlags@W4Flag@QMediaPlayer@@@@@Z) referenced in function "public: void __cdecl ChessGui::setMenu(void)" (?setMenu@ChessGui@@QEAAXXZ)
+ChessGui.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl QMediaPlayer::~QMediaPlayer(void)" (__imp_??1QMediaPlayer@@UEAA@XZ) referenced in function "public: virtual void * __cdecl QMediaPlayer::`scalar deleting destructor'(unsigned int)" (??_GQMediaPlayer@@UEAAPEAXI@Z)
+ChessGui.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl QMediaPlayer::play(void)" (__imp_?play@QMediaPlayer@@QEAAXXZ) referenced in function "public: void __cdecl ChessGui::setMenu(void)" (?setMenu@ChessGui@@QEAAXXZ)
+ChessGui.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl QMediaPlayer::setVolume(int)" (__imp_?setVolume@QMediaPlayer@@QEAAXH@Z) referenced in function "public: void __cdecl ChessGui::setMenu(void)" (?setMenu@ChessGui@@QEAAXXZ)
+ChessGui.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl QMediaPlayer::setMedia(class QMediaContent const &,class QIODevice *)" (__imp_?setMedia@QMediaPlayer@@QEAAXAEBVQMediaContent@@PEAVQIODevice@@@Z) referenced in function "public: void __cdecl ChessGui::setMenu(void)" (?setMenu@ChessGui@@QEAAXXZ)
+ChessGui.obj : error LNK2001: unresolved external symbol "public: virtual enum QMultimedia::AvailabilityStatus __cdecl QMediaPlayer::availability(void)const " (?availability@QMediaPlayer@@UEBA?AW4AvailabilityStatus@QMultimedia@@XZ)
+ChessGui.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl QMediaPlayer::bind(class QObject *)" (?bind@QMediaPlayer@@UEAA_NPEAVQObject@@@Z)
+ChessGui.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl QMediaObject::isAvailable(void)const " (?isAvailable@QMediaObject@@UEBA_NXZ)
+ChessGui.obj : error LNK2001: unresolved external symbol "public: virtual struct QMetaObject const * __cdecl QMediaPlayer::metaObject(void)const " (?metaObject@QMediaPlayer@@UEBAPEBUQMetaObject@@XZ)
+ChessGui.obj : error LNK2001: unresolved external symbol "public: virtual int __cdecl QMediaPlayer::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@QMediaPlayer@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z)
+ChessGui.obj : error LNK2001: unresolved external symbol "public: virtual void * __cdecl QMediaPlayer::qt_metacast(char const *)" (?qt_metacast@QMediaPlayer@@UEAAPEAXPEBD@Z)
+ChessGui.obj : error LNK2001: unresolved external symbol "public: virtual class QMediaService * __cdecl QMediaObject::service(void)const " (?service@QMediaObject@@UEBAPEAVQMediaService@@XZ)
+ChessGui.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl QMediaPlayer::unbind(class QObject *)" (?unbind@QMediaPlayer@@UEAAXPEAVQObject@@@Z)
+C:\Users\USER\source\repos\Chess\x64\Debug\\Chess.exe : fatal error LNK1120: 15 unresolved externals
